@@ -223,7 +223,7 @@ if (QUILL_MASTER_PROJECT OR QUILL_ENABLE_INSTALL)
             "Installation directory for include files, relative to ${CMAKE_INSTALL_PREFIX}.")
 
     set(QUILL_PKGCONFIG_DIR ${CMAKE_INSTALL_PREFIX}/pkgconfig CACHE PATH
-            "Installation directory for pkgconfig (.pc) files, relative to ${CMAKE_INSTALL_PREFIX}.")
+            "Installation directory for pkgconfig (.pc) files.")
 
     # Generate the version, config and target files into the build directory.
     # Generate version_config
